@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:id="@+id/main"
+    android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:id="@+id/img_profile_row"
+                    android:tag="image_tag"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/earning"/>
+
+
+
+                <TextView
+                    android:id="@+id/tv_profile_row"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+
+                    android:text="Change Password"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+
+                <ImageView
+                    android:id="@+id/img_next_row"
+                    android:tag="image_tag"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:visibility="visible"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/forward_grey"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+</LinearLayout>

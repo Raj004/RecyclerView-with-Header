@@ -20,10 +20,10 @@ public class Data {
     private String title_header;
 
 
-    public Data (Integer imageId, String title, String subtitle, Integer imageId2){
+    public Data (Integer imageId, String title, Integer imageId2){
         this.imageId=imageId;
         this.title=title;
-        this.subtitle=subtitle;
+        this.imageId2=imageId2;
     }
     public int getImageId2(){
         return imageId2;

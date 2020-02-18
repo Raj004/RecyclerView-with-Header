@@ -33,8 +33,6 @@ class MyAdapter(private val dataList: List<Data>) : RecyclerView.Adapter<MyAdapt
             }
         }
     }
-
-
     fun setClickListener(clickListener: ClickListener) {
         this.clickListener = clickListener
     }
